@@ -1,0 +1,14 @@
+/* Apply to the entire body */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* Apply to specific elements */
+h1 {
+  font-family: "Times New Roman", serif;
+}
+
+p {
+  font-family: "Verdana", sans-serif;
+  margin-left: 20px;
+}

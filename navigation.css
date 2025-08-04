@@ -1,0 +1,43 @@
+/*
+  This is the CSS for the main navigation list.
+  The # symbol targets the element with id="main-nav" in your HTML.
+*/
+
+#main-nav{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+  overflow: hidden;
+  background-color: #BC769B;
+  font-family:'Courier New', Courier, monospace}
+#main-nav li {
+  float: left;}
+#main-nav li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 16px;
+ text-decoration: none;}
+#main-nav li a:hover {
+  background-color: #111111;}
+
+/*
+  This is a separate rule for a normal, ordered list.
+  It will not affect your navigation bar because of the ID selector above.
+*/
+
+ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+ul {
+  /* This aligns the text to the left */
+  text-align: left;
+  
+  /* This controls the space between the page edge and the bullet points */
+  padding-left: 150px;
+  
+  /* This ensures the bullet points appear to the left of the text */
+  list-style-position: outside;
+}
